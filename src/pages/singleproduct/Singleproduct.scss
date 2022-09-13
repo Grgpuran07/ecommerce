@@ -1,0 +1,242 @@
+.singleproduct{
+    padding: 0px 9%;
+
+    .singleproduct-top{
+        display: flex;
+        margin: 20px 0px;
+         
+        p{
+            display: flex;
+            width: 50px;
+            // background-color: rgb(222, 121, 121);
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .pone{
+            width: 60px;
+        }
+
+        .pthree{
+            width: 120px;
+        }
+        .box{
+            height: 15px;
+            width: 10px;
+            border: 2px solid gray;
+        }
+    }
+
+    .photo-content{
+        height: 550px;
+        margin-bottom: 30px;
+        gap: 40px;
+        // background-color: aqua;
+        display: flex;
+
+        .photo-content-left{
+            flex: 1;
+            // background-color: aqua;
+            display: flex;
+            flex-direction: column;
+
+            .image{
+                height: 70%;
+                width: 100%;
+            }
+
+            .left-bottom-images{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 30%;
+                width: 100%;
+                gap: 5px;
+
+                img{
+                    height: 50%;
+                    width: 20%;
+                    border: 2px solid black;
+                }
+            }
+
+        }
+
+        .photo-content-right{
+            flex: 1;
+            // background-color: red;
+
+            .ratings{
+                display: flex;
+
+                .box{
+                    height: 20px;
+                    width: 20px;
+                    border: 3px solid #ff7a00;
+                }
+
+                .boxselect{
+                    background-color: #ff7a00;
+                    height: 20px;
+                    width: 20px;
+                    border: 3px solid #ff7a00;
+                }
+
+                .marginbox{
+                    margin-left: 15px;
+                }
+
+                .text{
+                    font-size: 20px;
+                }
+            }
+
+            h1{
+                margin-top: 15px;
+            }
+            p{
+                color: gray;
+            }
+
+            .button{
+                padding: 15px 25px;
+                margin: 20px 0;
+                background-color: #ff7a00;
+                border: none;
+                color: white;
+                cursor: pointer;
+            }
+
+            .below-button{
+                display: flex;
+                // background-color: wheat;
+                .box{
+                    height: 25px;
+                    width: 15px;
+                    border: 2px solid gray;
+                    margin-right: 20px;
+                }
+
+                .cityname{
+                    color: black;
+                    font-size: 18px;
+                }
+            }
+
+            .description{
+                margin-top: 20px;
+
+                p{
+                    color: black;
+                    margin-top: 20px;
+                }
+
+                ul{
+                    padding-left: 10%;
+                    padding-top: 6%;
+                    list-style: none; 
+
+                    li{
+                        display: flex;
+                        // align-items: flex-start;
+                        .circle{
+                            height: 15px;
+                            width: 15px;
+                            background-color: gray;
+                            border-radius: 50%;
+                            margin-right: 20px;
+                        }
+                    }                   
+                    
+                }
+            }
+        }
+    }
+    
+    .review-content{
+        padding: 30px 0px;
+
+        .review-write-review{
+            display: flex;
+
+            .review{
+                padding: 10px 15px;
+                border: 2px solid black;
+                border-bottom: white;
+                 
+            }
+    
+            .write-review{
+                padding: 10px 15px;
+                border: 2px solid black;
+                border-top: white;
+                border-left: none;
+            }
+    
+            .upper-border{
+                width: 83%;
+                border-top: 2px solid black;
+            }
+        }
+
+        .ratings{
+            display: flex;
+            margin-top: 20px;
+
+            .box{
+                height: 20px;
+                width: 20px;
+                border: 3px solid #ff7a00;
+            }
+
+            .marginbox{
+                margin-left: 15px;
+            }
+
+            .text{
+                font-size: 20px;
+            }
+        }
+
+        .total-review{
+            padding: 8px 15px;
+            width: 100px;
+            border: 2px solid gray;
+            border-radius: 40px;
+            display: grid;
+            place-items: center;
+            margin-top: 20px;
+        }
+
+        .all-reviews{
+            // height: 300px;
+            margin-top: 2em;
+            display: flex;
+
+            .all-review-left{
+                flex: 1;
+                height: 100%;
+                border-right: 3px solid gray;
+            }
+
+            .all-review-right{
+                flex: 1;
+                height: 100%;
+
+                .padding-div{
+                    padding-left: 5%;
+                }
+            }
+        }
+         
+    }
+
+    .most-reviwed-product{
+        display: flex;
+        gap: 10%;
+        margin: 20px 0px;
+    }
+
+}

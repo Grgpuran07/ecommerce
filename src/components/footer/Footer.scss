@@ -1,0 +1,73 @@
+.footer{
+    position: relative;
+    margin-bottom: 50px;
+    .footer-top{
+        height: 266px;
+        background-color: #181C28;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 9%;
+
+        .left{
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+        }
+
+        .right{
+             .footerinput{
+                 padding: 10px;
+                 background-color: transparent;
+                 border: 1px solid whitesmoke;
+                 color: white;
+             }
+
+             .footer-button{
+                 padding: 10px;
+                 background-color: #ff7a00;
+                 border: none;
+                 color: whitesmoke;
+                 margin-left: 5px;
+             }
+        }
+    }
+
+    .footer-bottom{
+        padding: 80px 9% 0px 9%;
+        display: flex;
+        .company-list,.service-list,.orders-return-list,.payment-list{
+            flex: 1;
+            ul{
+                list-style: none;
+                padding: 0;
+                 
+                a{
+                    text-decoration: none;
+                }
+                li{
+                    // padding: 0;
+                    margin: 0;
+                }
+            }
+
+            .paymentcards-image{
+                // background-color: #181C28;
+                margin: 20px 0px;
+                height: 100px;
+                width: 200px;
+                cursor: pointer;
+            }
+        }
+
+         
+         
+    }
+
+    .copyrighttext{
+        position: absolute;
+        right: 10%;
+    }
+
+     
+}

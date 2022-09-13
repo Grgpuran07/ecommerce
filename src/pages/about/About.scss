@@ -1,0 +1,55 @@
+.aboutus{
+    padding: 0px 9% ;
+
+    .text-div{
+        height: 30vh;
+        // background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        h3{
+            color: gray;
+        }
+    }
+
+    .grid-view{
+        display: grid;
+        // background-color: aqua;
+        // height: 210vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 5vh;
+        margin-bottom: 80px;
+
+        .grid-item{
+            // border: 2px solid black;
+        }
+        .first,.fifth,.fourth{
+            padding: 15%;
+            h1{
+                font-size: 30px;
+            }
+            p{
+                margin-top: 10px;
+                line-height: 20px;
+            }
+        }
+        
+        .second,.third,.sixth{
+            .image{
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    .grid-view{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

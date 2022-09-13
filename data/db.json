@@ -1,0 +1,40 @@
+{
+    "data":[
+        {
+            "productname":"T-Shirt",
+            "id":1,
+            "price":100,
+            "image":"https://images.unsplash.com/photo-1602810319428-019690571b5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNsb3RoaW5nJTIwcHJvZHVjdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "description":"Lorem ipsum Lorem Lorem Lorem Lorem ipsum Lorem Lorem Lorem Lorem ipsum Lorem Lorem Lorem"
+        },
+        {
+            "productname":"Woolen Shirt",
+            "id":2,
+            "price":200,
+            "image":"https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2xvdGhpbmclMjBwcm9kdWN0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "description":"Lorem ipsum Lorem Lorem Lorem Lorem ipsum Lorem Lorem Lorem Lorem ipsum Lorem Lorem Lorem"
+        },
+        {
+            "productname":"Mens Collection",
+            "id":3,
+            "price":150,
+            "image":"https://media.istockphoto.com/photos/stack-of-polo-shirts-in-varying-colors-picture-id176829144?b=1&k=20&m=176829144&s=170667a&w=0&h=D8HRMS3H6ksw2n_CIyX4QpdiqGlZ8e9RUZ2CT443AV0=",
+            "description":"Lorem ipsum Lorem Lorem Lorem Lorem ipsum Lorem Lorem Lorem Lorem ipsum Lorem Lorem Lorem"
+        },
+        {
+            "productname":"Mens Wear",
+            "id":4,
+            "price":200,
+            "image":"https://images.unsplash.com/photo-1603252109303-2751441dd157?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhpbmclMjBwcm9kdWN0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "description":"Lorem ipsum Lorem Lorem Lorem Lorem ipsum Lorem Lorem Lorem Lorem ipsum Lorem Lorem Lorem" 
+        },
+        {
+            "productname":"Mens Clothing",
+            "id":5,
+            "price":300,
+            "image":"https://media.istockphoto.com/photos/mens-clothing-isolated-on-white-background-picture-id984324980?k=20&m=984324980&s=612x612&w=0&h=_BCutSKqkd_u_ITbSNHtT8RUgfSuH2dwsstIsOTyqNU=",
+            "description":"Lorem ipsum Lorem Lorem Lorem Lorem ipsum Lorem Lorem Lorem Lorem ipsum Lorem Lorem LoremLorem ipsum Lorem Lorem Lorem"
+        }
+
+    ]
+}

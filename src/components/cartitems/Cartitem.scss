@@ -1,0 +1,50 @@
+.cartitems{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    // height: 500px;
+    background-color: white;
+    width: 30%;
+    border: 2px solid gray;
+    
+    .single-cart-item{
+        width: 90%;
+        margin: 5%;
+        border: 2px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .image{
+             width: 30%;
+        }
+        .productname-price{
+            display: grid;
+        }
+
+        .increase-decrease{
+            display: flex;
+            align-items: center;
+
+            button{
+                height: 30px;
+                width: 50px;
+                cursor: pointer;
+                background-color: green;
+            }
+        }
+
+        .removebutton{
+            height: 30px;
+            width: 80px;
+            background-color: rgba(255, 0, 0, 0.847);
+            cursor: pointer;
+            border: none;
+            color: white;
+        }
+    }
+
+    .totalprice{
+        text-align: center;
+        font-size: 20px;
+    }
+}
